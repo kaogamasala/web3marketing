@@ -1,0 +1,34 @@
+ import styles from "../styles";
+
+// const StartSteps = ({ number, text }) => (
+//   <div className={`${styles.flexCenter} flex-row`}>
+//     <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]`}>
+//       <p className="font-bold text-[20px] text-white">0{number}</p>
+//     </div>
+//     <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#B0B0B0] leading-[32px]">{text}</p>
+//   </div>
+// );
+
+const StartSteps = ({ id, title, subtitle }) => (
+  <div className={`${styles.flexCenter} flex-row`}>
+    <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]`}>
+      <p className="font-bold text-[20px] text-white">{title}</p>
+    </div>
+    <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#B0B0B0] leading-[32px]">{subtitle}</p>
+  </div>
+);
+
+
+
+// // const StartSteps = () => (
+// //   <div className={`${styles.flexCenter} flex-row`}>
+// //     <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]`}>
+// //       <p className="font-bold text-[20px] text-white">日時</p>
+// //     </div>
+// //     <div>
+// //       <p className="flex-1 mt-[20px] ml-[30px] font-normal text-[20px] text-[#B0B0B0] leading-[32px]">2023年3月9日 18時開始</p>
+// //     </div>
+// //   </div>
+  
+// );
+export default StartSteps;
